@@ -7,6 +7,7 @@ To run the program, first, create a virtual environment and activate it using Co
 ```
 conda create --name web_finder python=3.10
 conda activate web_finder
+pip install -r requirements.txt
 ```
 ### OpenAI API USE
 This version of program is using locally hosted model on Apple M1 laptop, If you want to use OpenAI or compatible API you can export them like below. 
